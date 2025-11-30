@@ -7,8 +7,8 @@ const {
 
 const router = express.Router();
 
-// Register
-router.post("/register", createNewUserAccount);
+// Signup
+router.post("/signup", createNewUserAccount);
 
 // Login
 router.post("/login", loginExistingUser);
